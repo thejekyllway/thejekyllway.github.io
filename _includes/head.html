@@ -1,0 +1,40 @@
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+	
+  <!-- Meta tags -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" href="http://twitter.com/amenezesw" content="Anderson Menezes">
+
+	<!-- Facebook Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:image" content="{{ "/assets/image/" | prepend: site.baseurl | prepend: site.url }}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  {% if page.date %}
+  <meta property="article:published_time" content="{{ post.date }}" />
+  {% for tag in page.tags %}
+  <meta property="article:tag" content="{{ tag }}">
+  {% endfor%}
+  {% endif %}
+
+	<!-- Social: Google+ / Schema.org  -->
+  <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+  <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta itemprop="image" content="{{ "/assets/image/" | prepend: site.baseurl | prepend: site.url }}"/>
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="" />
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ "/assets/image/icon.png" | prepend: site.baseurl | prepend: site.url }}"/>
+
+	<!-- Favicon -->
+  <link rel="shortcut icon" href="/assets/image/icon.png" type="image/x-icon">
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="content">
+<h1 class="title-categories">Categoria: <span>{{ page.tag }}</span></h1>
+{% if site.tags[page.tag] %}
+  {% for post in site.tags[page.tag] %}
+    <div class="lectures">
+  		<article class="lecture-content">
+	      <a href="{{ post.link }}" class="lecture-thumbnails mfp-iframe" target="_blank">
+	      	<img src="/assets/image/palestrante-default.jpg" alt="{{ post.title }}" data-echo=" {{ post.img }}">
+	      </a>
+	      <a class="lecture-info mfp-iframe" href="{{ post.link }}">
+        	<span class="lecture-date">Por: {{ post.speakers }}</span>
+        	<h2 class="lecture-title">{{ post.title  | strip_html | truncate: 47 }}</h2>
+      	</a>
+    	</article>
+		</div>
+	{% endfor %}
+{% else %}
+    <p>Não há nenhum item!</p>
+{% endif %}
+</div>
