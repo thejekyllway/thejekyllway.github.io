@@ -1,6 +1,7 @@
 .posts{
 	margin: 40px 0;
 	padding: 8px;
+	height: 100%;
 }
 
 .author_post{
@@ -15,7 +16,10 @@
 }
 
 .description_post{
-	color: $description-post
+	color: $description-post;
+	font-size: 16px;
+	line-height: 28px;
+	text-align: left;
 }
 
 .more{
