@@ -1,4 +1,6 @@
 .posts{
+	margin: 40px 0;
+	padding: 8px;
 }
 
 .author_post{
@@ -10,4 +12,8 @@
 .title_post_main{
 	font-weight: 900;
 	color: $color-title-main;
+}
+
+.description_post{
+	color: $description-post
 }
