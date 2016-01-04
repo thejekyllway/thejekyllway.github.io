@@ -4,7 +4,7 @@ title: "Criando um blog simples com Jekyll"
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam doloribus, iusto asperiores praesentium dolor voluptatibus est. Nesciunt, accusamus?
 categories: beginner
 date: 2016-01-04
-img: "src/image/authors/ciro-nunes.jpg"
+img: "assets/image/authors/ciro-nunes.jpg"
 link:
 comments: true
 ---

@@ -46,7 +46,7 @@ DIST_FOLDER="$HOME/Documents/Projects/the-jekyll-way/_posts/"
 BLOG_URL=""
 
 # Set your assets URL
-ASSETS_URL="src/image/authors"
+ASSETS_URL="assets/image/authors"
 # ----------------------------------------------------------------
 
 
