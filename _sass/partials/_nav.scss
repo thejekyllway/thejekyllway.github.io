@@ -1,6 +1,9 @@
-.nav-main{
+.nav_main{
 	background: $background-menu-main;
 	border-bottom: 1px solid $color-border-menu-main;
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
 }
 .link_nav_main{
 	color: $color-link-nav-main;
