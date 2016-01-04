@@ -4,7 +4,7 @@ permalink: /beginner.html
 title: iniciantes
 description: Artigos e tutoriais para
 ---
-{% for post in site.categories.beginner %}
+{% for post in site.categories.beginner limit:10 %}
 	<section class="col-md-8 posts">
 		<a href="#">
 			<img src="{{ post.img }}" class="img-circle author_post" alt="">
