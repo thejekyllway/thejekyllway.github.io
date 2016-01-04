@@ -117,8 +117,9 @@ initpost_content() {
 
 echo "---"
 echo "layout: post"
-echo "title:"
+echo "title: \"${POST_TITLE}\""
 echo "description:"
+echo "categories:"
 echo "date: ${CURRENT_DATE}"
 echo "img: \"${ASSETS_URL}/\""
 echo "link:"
