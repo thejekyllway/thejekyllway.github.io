@@ -11,3 +11,16 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.title_level{
+	text-transform: uppercase;
+	font-size: 48px;
+	letter-spacing: 5px;
+	color: $color-title-page;
+	font-weight: 900;
+}
+
+.description_level{
+	font-size: 18px;
+	color: $color-description-page;
+}
