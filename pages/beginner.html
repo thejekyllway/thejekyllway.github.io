@@ -12,7 +12,7 @@ description: Artigos e tutoriais para
 
 		<div class="col-md-10">
 			<h1 class="col-md-12"><a href="{{ post.link }}" class="title_post_main">{{ post.title }}</a></h1>
-			<p class="col-md-12 description_post">{{ post.description }}<a href="{{ post.link }}" class="more">Continue lendo...</a></p>
+			<p class="col-md-12 description_post">{{ post.description }}<a href="{{ post.url | prepend: site.baseurl }}" class="more">Continue lendo...</a></p>
 		</div>
 	</section>
 {% endfor %}
