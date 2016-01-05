@@ -34,3 +34,27 @@
 	font-weight: 900;
 	display: inline-block;
 }
+
+.title_posts{
+	@extend .title_level;
+	text-transform: none;
+	letter-spacing: 0;
+	margin: 30px 0;
+}
+
+.content_posts{
+	margin: 50px auto;
+	float: none;
+	padding: 5px 20px;
+	p{
+		font-size: 18px;
+		color: #FFF;
+		text-align: left;
+		line-height: 30px;
+	}
+	h1,h2,h3,h4,h5,h6{
+		text-transform: uppercase;
+		color: $color-title-post;
+		font-weight: bold;
+	}
+}

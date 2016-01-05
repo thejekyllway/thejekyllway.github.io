@@ -10,7 +10,6 @@ destination: ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_dir: ./_data
-collections: null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 paginate_path: 'page:num'
 
