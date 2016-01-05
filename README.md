@@ -1,1 +1,1 @@
-# The-jekyll-way
+# The Jekyll Way
