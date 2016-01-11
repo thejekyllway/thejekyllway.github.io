@@ -3,13 +3,10 @@
 }
 
 .logo{
-	float: none;
+	max-width: 100%;
 	margin: 20px auto;
-	a{
-		display: block;
-		height: 275px;
-		background: url('/assets/image/logo.png') no-repeat center;
-	}
+	float: none;
+	display: block;
 }
 
 .header_pages{
