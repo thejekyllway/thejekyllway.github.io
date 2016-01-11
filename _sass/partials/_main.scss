@@ -1,24 +1,38 @@
-.posts{
-	margin: 50px auto;
+.main{
 	float: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+.posts{
+	clear: both;
 	padding: 8px;
-	min-height: 200px;
+	height: auto;
+	overflow: hidden;
+	margin: 25px 0;
 	border-bottom: 1px solid $background-global + 30;
 }
 
 .author_post{
 	width: 120px;
 	height: 120px;
-	float: left;
-	margin-top: 30px;
+	margin: 30px auto 0 auto;
 	border: 2px solid $color-border-author;
 	background: $color-border-author;
 	border-radius: 100%;
+
+	@include responsive(sm) {
+		display: block;
+	}
 }
 
 .title_post_main{
 	font-weight: 900;
 	color: $color-title-main;
+	display: block;
+	@include responsive(sm) {
+		padding-top: 15px;
+		clear: both;
+	}
 }
 
 .description_post{
@@ -32,7 +46,7 @@
 	color: $color-more;
 	text-transform: uppercase;
 	font-weight: 900;
-	display: inline-block;
+	display: block;
 }
 
 .title_posts{
