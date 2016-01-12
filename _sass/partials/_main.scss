@@ -80,3 +80,33 @@
 		font-weight: bold;
 	}
 }
+
+.author{
+	background: #232323;
+	margin: 50px 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.author_info{
+	float: none;
+	margin: 0 auto;
+
+	@include responsive(sm) {
+		text-align: center;
+	}
+}
+
+.name_author{
+	color: #FC0;
+}
+
+.author_descriphtion{
+}
+
+.social_authors{
+	clear: both;
+	a{
+		margin-left: 10px;
+	}
+}
