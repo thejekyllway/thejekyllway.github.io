@@ -6,6 +6,7 @@
 body {
   background: $background-global;
   color: $color-default;
+  font-size: 1.6rem;
 }
 
 a {
@@ -20,6 +21,7 @@ html {
   font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
 }
 
 ul {
