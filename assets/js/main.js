@@ -1,0 +1,1 @@
+!function(){var n=document.querySelector("#nav_icon"),s=document.querySelector(".nav_list");n.onclick=function(){s.classList.contains("nav_list")?s.classList.remove("nav_list"):s.classList.add("nav_list")}}();

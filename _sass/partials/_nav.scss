@@ -5,10 +5,45 @@
 	width: 100%;
 	z-index: 99999;
 }
+.item_nav_main{
+	margin: 0px 8px;
+	padding: 5px;
+	float: left;
+	
+	@include responsive(sm) {
+		min-width: 100%;
+		border-bottom: 1px solid #383838;
+	}
+}
 .link_nav_main{
 	color: $color-link-nav-main;
 	text-transform: uppercase;
-	margin: 10px 25px;
-	float: left;
 	font-weight: 900;
+	padding: 10px 0;
+	display: block;
+}
+.nav_list{
+	@include responsive(sm) {
+		display: none
+	}
+}
+.nav_icon{
+	display: none;
+	background: none;
+	border: none;
+	float: right;
+	outline: none;
+	margin: 5px;
+	b{
+		display: block;
+		margin: 6px 0;
+		background: #F5F5F5;
+		border-radius: 5px;
+		height: 7px;
+		width: 50px;
+	}
+
+	@include responsive(sm) {
+		display: block;
+	}
 }
