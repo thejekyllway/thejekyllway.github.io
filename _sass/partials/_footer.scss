@@ -20,8 +20,10 @@
 }
 
 .copyright{
-	margin: 50px 0;
+	margin: 50px 0 25px 0;
 	clear: both;
+	
+	a{ color: $copyright-link; }
 
 	span {
 		display: block;
