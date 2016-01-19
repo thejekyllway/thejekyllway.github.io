@@ -17,9 +17,8 @@ $background-menu-main: #212121;
 //----------------------------------*/
 $color-title-main: #DDDDC5;
 $description-post: #AAA;
-$color-more: $color-link-nav-main;
+$color-more: #FC0;
 $color-border-author: #FCF8E3;
-
 $color-title-post: #FC0;
 
 //----------------------------------*\
@@ -31,6 +30,8 @@ $color-link-footer: #FFF;
 $color-copyright: $description-post;
 $copyright-link: $title-widget;
 
-
-$color-title-page: $color-link-nav-main;
+//----------------------------------*\
+// VARIÁVEIS PÁGINAS EXTERNA
+//----------------------------------*/
+$color-title-page: #FC0;
 $color-description-page: #FFF;
