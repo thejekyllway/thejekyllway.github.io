@@ -117,3 +117,26 @@
 	margin-right: auto;
 	margin-bottom: 20px;
 }
+
+.share{
+	float: none;
+	margin: 0 auto;
+
+	.title_level{
+		text-align: center;
+	}
+}
+
+.list_icons_share{
+	float: none;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.title_share{
+	@extend .title_posts;
+	text-transform: uppercase;
+}
+.icon_share{
+	margin: 0 5px;
+}

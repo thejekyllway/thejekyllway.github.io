@@ -1,10 +1,16 @@
 <article class="col-md-12 posts">
-	<a href="#" class="col-xs-12 col-sm-2 col-md-3 col-lg-2">
-		<img src="{{ post.img }}" class="author_post" alt="">
+	<a href="{{ post.url | prepend: site.baseurl }}" class="col-xs-12 col-sm-2 col-md-3 col-lg-2">
+		<img src="{{ post.img }}" class="author_post" alt="{{ post.author }}">
 	</a>
 
 	<div class="col-md-9 col-sm-10 col-lg-9">
-		<h1 class="col-md-12"><a href="{{ post.link }}" class="title_post_main">{{ post.title }}</a></h1>
-		<p class="col-md-12 description_post">{{ post.description }}<a href="{{ post.url | prepend: site.baseurl }}" class="more">Continue lendo...</a></p>
+		<h1 class="col-md-12">
+			<a href="{{ post.url | prepend: site.baseurl }}" class="title_post_main">{{ post.title }}</a>
+		</h1>
+		
+		<p class="col-md-12 description_post">
+			{{ post.description }}
+			<a href="{{ post.url | prepend: site.baseurl }}" class="more">Continue lendo...</a>
+		</p>
 	</div>
 </article>

@@ -1,0 +1,24 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 share">
+			<h2 class="title_share">Compartilhe</h2>
+			<ul class="col-md-6 col-sm-6 col-xs-6 list_icons_share">
+				<li>
+					<a aria-label="Compartilhe no Facebook" class="icon_share facebook_icon" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"></a>
+				</li>
+				
+				<li>
+					<a aria-label="Compartilhe no Twitter" class="icon_share twitter_icon" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" href="https://twitter.com/intent/tweet?text=&quot;{{ page.twitter_text }}&quot;%20{{ site.url }}{{ page.url }}%20via%20&#64;{{ site.twitter_username }}&hashtags={% for tag in page.tags %}{{tag}},{% endfor %}"></a>
+				</li>
+				
+				<li>
+					<a aria-label="Compartilhe no Google Plus" class="icon_share github_icon" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}"></a>
+				</li>
+
+				<li>
+					<a class="icon_share email_icon" href=""></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
