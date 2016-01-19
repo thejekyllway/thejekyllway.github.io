@@ -17,6 +17,10 @@
 	font-size: 17px;
 	margin-top: 10px;
 	color: $color-link-footer;
+
+	a{
+		color: $title-widget;
+	}
 }
 
 .copyright{
