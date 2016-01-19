@@ -41,5 +41,9 @@
 		margin-top: 20px;
 		border-radius: 100%;
 		background: url('../image/#{$social}.png') no-repeat rgba(255,255,255,0.1) center;
+
+		&:hover{
+			background: url('../image/#{$social}.png') no-repeat rgba(255, 255, 255, 0.42) center;
+		}
 	}
 }
