@@ -4,14 +4,7 @@ permalink: /projects.html
 title: Projetos
 ---
 {% for post in site.categories.projects limit:10 %}
-	<section class="col-md-8 posts">
-		<a href="#">
-			<img src="{{ post.img }}" class="img-circle author_post" alt="">
-		</a>
-
-		<div class="col-md-10">
-			<h1 class="col-md-12"><a href="{{ post.link }}" class="title_post_main">{{ post.title }}</a></h1>
-			<p class="col-md-12 description_post">{{ post.description }}<a href="{{ post.url | prepend: site.baseurl }}" class="more">Continue lendo...</a></p>
-		</div>
+	<section class="main col-md-8">
+		{% include post-default.html %}
 	</section>
 {% endfor %}
