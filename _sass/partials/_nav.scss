@@ -10,7 +10,7 @@
 	padding: 5px;
 	float: left;
 	
-	@include responsive(sm) {
+	@include responsive(handheldToMedium) {
 		min-width: 100%;
 		border-bottom: 1px solid #383838;
 	}
@@ -23,7 +23,7 @@
 	display: block;
 }
 .nav_list{
-	@include responsive(sm) {
+	@include responsive(handheldToMedium) {
 		display: none
 	}
 }
@@ -43,7 +43,7 @@
 		width: 50px;
 	}
 
-	@include responsive(sm) {
+	@include responsive(handheldToMedium) {
 		display: block;
 	}
 }
