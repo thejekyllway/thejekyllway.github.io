@@ -7,6 +7,10 @@
 	font-size: 16px;
 	display: block;
 	margin: 10px 6px;
+
+	&:hover{
+		text-decoration: underline;
+	}
 }
 
 .widget_footer{
@@ -27,7 +31,10 @@
 	margin: 50px 0 25px 0;
 	clear: both;
 	
-	a{ color: $copyright-link; }
+	a{ 
+		color: $copyright-link;
+		display: inline-block;
+	}
 
 	span {
 		display: block;

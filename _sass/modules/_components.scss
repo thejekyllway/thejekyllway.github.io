@@ -11,6 +11,10 @@
 	color: $color-title-main;
 	display: block;
 	
+	&:hover{
+		color: $color-title-main-hover;
+	}
+
 	@include responsive(handheldToMedium) {
 		padding-top: 15px;
 		clear: both;
@@ -71,4 +75,8 @@
 	text-transform: uppercase;
 	font-weight: 900;
 	display: block;
+
+	&:hover{
+		color: $color-more + 30;
+	}
 }

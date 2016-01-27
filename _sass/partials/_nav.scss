@@ -7,7 +7,6 @@
 }
 .item_nav_main{
 	margin: 0px 8px;
-	padding: 5px;
 	float: left;
 	
 	@include responsive(handheldToMedium) {
@@ -22,8 +21,12 @@
 	color: $color-link-nav-main;
 	text-transform: uppercase;
 	font-weight: 900;
-	padding: 10px 0;
+	padding: 15px 5px;
 	display: block;
+
+	&:hover{
+		color: $color-hover-link;
+	}
 }
 .nav_list{
 	@include responsive(handheldToMedium) {
