@@ -96,6 +96,12 @@
 .author_info{
 	float: none;
 	margin: 0 auto;
+	
+	.author_post{
+		@include responsive(wide) {
+			margin-top: 25%;
+		}
+	}
 
 	@include responsive(handheldToMedium) {
 		text-align: center;
