@@ -14,10 +14,20 @@
 
 .title_level{
 	text-transform: uppercase;
-	font-size: 4.8rem;
+	font-size: $font-title-level;
 	letter-spacing: 5px;
 	color: $color-title-page;
 	font-weight: 900;
+	margin: 20px;
+	padding-top: 25px;
+
+	@include responsive(medium) {
+		font-size: $font-title-level - 1;
+	}
+
+	@include responsive(handheld) {
+		font-size: $font-title-level - 2.0;
+	}
 }
 
 .description_level{
