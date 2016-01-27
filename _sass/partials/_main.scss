@@ -48,6 +48,10 @@
 	line-height: 28px;
 	text-align: left;
 	margin: 0;
+
+	@include responsive(handheldToMedium) {
+		text-align: center;
+	}
 }
 
 .more{
