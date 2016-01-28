@@ -1,2 +1,19 @@
 - slug: iniciantes
-  name: iniciantes
+  name: Iniciantes
+  permalink: /beginner.html 
+
+- slug: Intermediário
+  name: Intermediário
+  permalink: /intermediate.html 
+
+- slug: Avançado
+  name: Avançado
+  permalink: /advanced.html 
+
+- slug: Novidades
+  name: Novidades
+  permalink: /news.html 
+
+- slug: Projetos
+  name: Projetos
+  permalink: /projects.html 
