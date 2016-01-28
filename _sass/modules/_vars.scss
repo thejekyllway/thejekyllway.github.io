@@ -11,11 +11,13 @@ $background-global: #333;
 $color-border-menu-main: rgb(88, 86, 86);
 $color-link-nav-main: #FC0;
 $background-menu-main: #212121;
+$color-hover-link: #FFF;
 
 //----------------------------------*\
 // VARIÁVEIS POST
 //----------------------------------*/
 $color-title-main: #DDDDC5;
+$color-title-main-hover: #FFF;
 $description-post: #AAA;
 $color-more: #FC0;
 $color-border-author: #FCF8E3;
@@ -35,3 +37,8 @@ $copyright-link: $title-widget;
 //----------------------------------*/
 $color-title-page: #FC0;
 $color-description-page: #FFF;
+
+//----------------------------------*\
+// VARIÁVEIS CATEGORIAS
+//----------------------------------*/
+$font-title-level: 4.8rem;

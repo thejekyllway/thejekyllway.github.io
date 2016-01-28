@@ -1,5 +1,17 @@
 @mixin responsive($media) {
-	@if $media == sm {
-		@media only screen and(max-width: $screen-sm) {@content;}
+	@if $media == handheld {
+		@media only screen and (max-width: $screen-xs - 1) { @content; }
+	}
+	
+	@else if $media == medium {
+		@media only screen and (min-width: $screen-xs - 1) and (max-width: $screen-sm + 1) { @content; }
+	}
+
+	@else if $media == wide {
+		@media only screen and (min-width: $screen-md + 1) { @content; }
+	}
+
+	@else if $media == handheldToMedium {
+		@media only screen and (max-width: $screen-sm - 1) { @content; }
 	}
 }
