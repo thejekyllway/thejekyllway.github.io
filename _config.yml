@@ -4,6 +4,7 @@ email:
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+twitter_username: thejekyllway
 # Build settings
 source:      .
 destination: ./_site
