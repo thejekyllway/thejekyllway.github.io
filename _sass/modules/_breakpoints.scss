@@ -8,7 +8,7 @@
 	}
 
 	@else if $media == wide {
-		@media only screen and (min-width: $screen-md + 1) { @content; }
+		@media only screen and (min-width: $screen-lg - 1){ @content; }
 	}
 
 	@else if $media == handheldToMedium {
