@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-md-4">
+			<div class="col-sm-12 col-md-4">
 
 				<img src="/assets/image/logo-white.png" class="col-md-12 col-xs-6"alt="">
 
@@ -18,9 +18,17 @@
 					</div>
 
 					<ul>
-						<li class="col-md-3"><a href="#" class="link_footer twitter_icon"></a></li>
-						<li class="col-md-3"><a href="#" class="link_footer github_icon"></a></li>
-						<li class="col-md-3"><a href="#" class="link_footer email_icon"></a></li>
+						<li class="col-md-3">
+							<a href="http://twitter.com/thejekyllway" target="_blank" class="link_footer twitter_icon"></a>
+						</li>
+						
+						<li class="col-md-3">
+							<a href="http://http://github.com/thejekyllway" target="_blank" class="link_footer github_icon"></a>
+						</li>
+						
+						<li class="col-md-3">
+							<a class="link_footer email_icon"></a>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -44,11 +52,18 @@
 					<h4 class="title_widget">Categorias</h4>
 
 					<ul>
-						<li><a href="/beginner.html" class="link_footer">Iniciante</a></li>
-						<li><a href="/intermediate.html" class="link_footer">Intermediário</a></li>
+						{% for categorie in site.data.categories %}
+							<li>
+								<a href="{{ categorie.permalink }}" class="link_footer">{{ categorie.name }}</a>
+							</li>
+						{% endfor %}
+						
+
+
+						<!-- <li><a href="" class="link_footer">Intermediário</a></li>
 						<li><a href="/advanced.html" class="link_footer">Avançado</a></li>
 						<li><a href="/news.html" class="link_footer">Novidades</a></li>
-						<li><a href="/projects.html" class="link_footer">Projetos</a></li>
+						<li><a href="/projects.html" class="link_footer">Projetos</a></li> -->
 					</ul>
 				</div>
 
