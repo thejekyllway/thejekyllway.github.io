@@ -1,11 +1,15 @@
-# Site settings
+#Site settings
 title: The jekyll way 
-email:
+email: thejekyllway@gmail.com
 description: 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://thejekyllway.github.io" # the base hostname & protocol for your site
+baseurl: "/"
+url: "http://thejekyllway.github.io"
+
+#Social network
+github_username: thejekyllway
 twitter_username: thejekyllway
-# Build settings
+
+#Build settings
 source:      .
 destination: ./_site
 plugins_dir:     ./_plugins
@@ -13,6 +17,10 @@ layouts_dir:     ./_layouts
 data_dir: ./_data
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 paginate_path: 'page:num'
+
+#Gems
+gems:
+	- jekyll-paginate
 
 #Compress HTML
 compress_html:
