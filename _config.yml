@@ -2,7 +2,7 @@
 title: The jekyll way 
 email: thejekyllway@gmail.com
 description: 
-baseurl: "/"
+baseurl: ""
 url: "http://thejekyllway.github.io"
 
 #Social network
@@ -18,9 +18,6 @@ data_dir: ./_data
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 paginate_path: 'page:num'
 
-#Gems
-gems:
-	- jekyll-paginate
 
 #Compress HTML
 compress_html:
