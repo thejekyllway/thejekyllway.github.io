@@ -113,7 +113,12 @@
 .list_icons_share{
 	float: none;
 	margin: 0 auto;
-	overflow: hidden;
+	li{
+		width: 60px;
+		float: left;
+		overflow: hidden;
+		margin-left: 7px;
+	}
 }
 
 .icon_share{
