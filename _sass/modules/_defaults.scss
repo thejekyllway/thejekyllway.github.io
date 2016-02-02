@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   font-family: $font-default;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -21,6 +23,7 @@ blockquote {
   border-left: 5px solid $color-link-nav-main;
   padding-left: 20px;
   font-style: italic;
+  margin: 30px 0 30px 20px;
 }
 
 li {
