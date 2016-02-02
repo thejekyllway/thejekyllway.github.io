@@ -1,9 +1,8 @@
-David Smith:
-  name: David Smith
-  github: davidsmith
-  description: Entusiasta tecnológico, trabalha com desenvolvimento web a  8 anos. Seu foco principal é a linguagem PHP e seus frameworks.
-  img: /assets/image/john-w-long.jpeg
-  facebook: https://facebook.com/user
-  twitter: https://twitter.com/user
-  github: https://github.com/user
-  gplus: https://plus.google.com/user
+Willian Justen:
+  name: Willian Justen
+  description: 
+  github: https://github.com/willianjusten
+  img: /assets/image/authors/willian-justen.jpg
+  facebook: https://facebook.com/willjusten
+  twitter: https://twitter.com/Willian_justen
+  gplus: https://plus.google.com/+WillianJustendeVasconcellos

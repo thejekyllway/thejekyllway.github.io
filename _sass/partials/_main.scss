@@ -13,8 +13,8 @@
 }
 
 .author_post{
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 	margin: 30px auto 0 auto;
 	border: 2px solid $color-border-author;
 	background: $color-border-author;
@@ -22,10 +22,6 @@
 
 	@include responsive(handheldToMedium) {
 		display: block;
-	}
-
-	@include responsive(wide) {
-		margin: 50% auto 0 auto;
 	}
 }
 
@@ -45,16 +41,26 @@
 	margin: 50px auto;
 	float: none;
 	padding: 5px 20px;
-	p{
-		font-size: 18px;
-		color: #FFF;
-		text-align: left;
-		line-height: 30px;
-	}
+	font-size: 20px;
+	line-height: 2;
+	color: $color-text-external;
 	h1,h2,h3,h4,h5,h6{
 		text-transform: uppercase;
 		color: $color-title-post;
 		font-weight: bold;
+		margin: 20px 0;
+	}
+	a,.highlighter-rouge{
+		color: $color-title-post;
+	}
+	ul{
+	}
+	li{
+		list-style: disc;
+		margin: 10px 0 20px 30px;
+	}
+	.highlighter-rouge{
+		padding: 3px 8px;
 	}
 }
 
@@ -82,6 +88,8 @@
 
 .name_author{
 	color: #FC0;
+	margin: 10px 0;
+	font-size: 28px;
 }
 
 .author_descriphtion{
@@ -123,4 +131,19 @@
 
 .icon_share{
 	margin: 0 5px;
+}
+
+
+.info_post {
+	font-size: 20px;
+	font-style: italic;
+	margin: 20px 0;
+
+	a{
+		color: $color-title-post;
+	}
+
+	@include responsive(handheldToMedium){
+		text-align: center;
+	}
 }
