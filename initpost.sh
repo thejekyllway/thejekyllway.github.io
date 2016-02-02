@@ -40,7 +40,7 @@ FILE_NAME="${CURRENT_DATE}-${POST_NAME}.md"
 # ----------------------------------------------------------------
 
 # Set your destination folder
-DIST_FOLDER="$HOME/Documents/Projects/the-jekyll-way/_posts/"
+DIST_FOLDER="_posts/"
 
 # Set your blog URL
 BLOG_URL=""
