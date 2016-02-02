@@ -47,7 +47,7 @@
 	padding: 5px 20px;
 	p{
 		font-size: 20px;
-		color: #FFF;
+		color: $color-text-external;
 		text-align: left;
 		line-height: 2;
 	}
@@ -55,6 +55,9 @@
 		text-transform: uppercase;
 		color: $color-title-post;
 		font-weight: bold;
+	}
+	a{
+		color: $color-title-post;
 	}
 }
 
