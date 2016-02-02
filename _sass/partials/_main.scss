@@ -132,3 +132,18 @@
 .icon_share{
 	margin: 0 5px;
 }
+
+
+.info_post {
+	font-size: 20px;
+	font-style: italic;
+	margin: 20px 0;
+
+	a{
+		color: $color-title-post;
+	}
+
+	@include responsive(handheldToMedium){
+		text-align: center;
+	}
+}
