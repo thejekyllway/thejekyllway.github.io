@@ -41,19 +41,26 @@
 	margin: 50px auto;
 	float: none;
 	padding: 5px 20px;
-	p{
-		font-size: 20px;
-		color: $color-text-external;
-		text-align: left;
-		line-height: 2;
-	}
+	font-size: 20px;
+	line-height: 2;
+	color: $color-text-external;
 	h1,h2,h3,h4,h5,h6{
 		text-transform: uppercase;
 		color: $color-title-post;
 		font-weight: bold;
+		margin: 20px 0;
 	}
-	a{
+	a,.highlighter-rouge{
 		color: $color-title-post;
+	}
+	ul{
+	}
+	li{
+		list-style: disc;
+		margin: 10px 0 20px 30px;
+	}
+	.highlighter-rouge{
+		padding: 3px 8px;
 	}
 }
 
