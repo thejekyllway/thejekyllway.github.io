@@ -13,8 +13,8 @@
 }
 
 .author_post{
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 	margin: 30px auto 0 auto;
 	border: 2px solid $color-border-author;
 	background: $color-border-author;
@@ -22,10 +22,6 @@
 
 	@include responsive(handheldToMedium) {
 		display: block;
-	}
-
-	@include responsive(wide) {
-		margin: 50% auto 0 auto;
 	}
 }
 
