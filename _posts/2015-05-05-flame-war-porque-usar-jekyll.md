@@ -3,7 +3,7 @@ layout: post
 title:  "Flame War: Por que usar Jekyll?"
 author: Willian Justen
 description: Depois de várias dúvidas, aqui vai uma lista de razões para se utilizar o Jekyll para criação de Blogs de desenvolvimento.
-categories: advanced 
+categories: beginner 
 date:   2015-03-31 10:09:00
 img: /assets/image/authors/willian-justen.jpg
 ---
