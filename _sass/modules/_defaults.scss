@@ -17,6 +17,12 @@ a {
   }
 }
 
+blockquote {
+  border-left: 5px solid $color-link-nav-main;
+  padding-left: 20px;
+  font-style: italic;
+}
+
 li {
   list-style: none;
 }
